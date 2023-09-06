@@ -1,0 +1,16 @@
+.list {
+  border: 1px solid darkgray;
+  height: 5rem;
+}
+.box {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box span {
+  font-weight: 500;
+}
+.box button {
+  border: none;
+}
