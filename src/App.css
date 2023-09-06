@@ -1,0 +1,28 @@
+.form-div {
+  border: 1px solid black;
+  height: 95vh;
+}
+.list-div {
+  border: 1px solid black;
+  height: 95vh;
+  overflow: scroll;
+  padding-bottom: 0.1rem;
+}
+.list-div::-webkit-scrollbar {
+  display: none;
+}
+.heading {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  padding-bottom: 0.1rem;
+}
+.search {
+  width: 45%;
+  /* margin-right: 1rem; */
+  border-radius: 8px;
+  outline: none;
+}
+.search-btn {
+  margin-right: 2rem;
+}
